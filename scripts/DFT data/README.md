@@ -2,3 +2,5 @@
 The provided [dataset](https://github.com/aitenea/alkyne-borylation-ml/blob/main/data/df_bor_full.csv) that we used to train and validate our machine learning models was generated with DFT calculations using both Gaussian and Morfeus to obtain the steric and electrical descriptors of both ligands and reactives. 
 
 We generated the _.gjf_ files that Gaussian requires, extracted the _.log_ results, performed the Morfeus calculations and generated the final _.csv_ dataset with an adapted version of [Auto-QChem](https://github.com/dkesada/auto-qchem_exp).
+
+The xyz coordinates and SMILES code of the reactives and ligands can be found in the [xyz_coords](https://github.com/aitenea/alkyne-borylation-ml/tree/main/scripts/DFT%20data/xyz_coords) folder. These were extracted from the Gaussian _.log_ files with the [log_to_xyz.py](https://github.com/aitenea/alkyne-borylation-ml/blob/main/scripts/DFT%20data/log_to_xyz.py) script. An example of how to generate _.gjf_ files with the modified Auto-QChem software can be found in the [example gjf](https://github.com/aitenea/alkyne-borylation-ml/blob/main/scripts/DFT%20data/example%20gjf) folder. 
