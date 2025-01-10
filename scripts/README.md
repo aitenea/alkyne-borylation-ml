@@ -1,0 +1,2 @@
+# Experimental workflow script
+The [main_boril_lit.py](https://github.com/aitenea/alkyne-borylation-ml/blob/main/scripts/main_boril_lit.py) script contains the subroutines used for feature subset selection, hyperparameter optimization, model training and evaluation. The script can be used as a standalone file by providing it the path to the dataset and modifying the main accordingly. Beware that some of the feature subset selection and hyperparameter optimization routines can be very time consuming, and they may need up to hours depending on the type of model selected.
