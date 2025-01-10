@@ -1,0 +1,33 @@
+---LABELS START---
+copper,Cu10
+boron,B9
+phosphorus1,P11
+#nitrogen,N59
+---LABELS END---
+
+
+
+---mulliken_charge START---
+copper
+boron
+phosphorus1
+#nitrogen
+---mulliken_charge END---
+
+
+
+---geometry START---
+r,phosphorus1,copper,None
+#r,nitrogen,copper,None
+a,phosphorus1,copper,boron,None
+#a,nitrogen,copper,boron,None
+r,boron,copper,None,None
+---geometry END---
+
+
+
+---NBO START---
+### format: Donor_NBO_type,Donor_NBO_atom_1,Donor_NBO_atom_2,Acceptor_NBO_type,Acceptor_NBO_atom_1,Acceptor_NBO_atom_2
+### write "None" if there is no second atom.
+#BD*,a_carbon,b_carbon,BD*,c_carbon,d_carbon
+---NBO END---
