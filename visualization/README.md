@@ -1,2 +1,2 @@
 # Visualization tasks
-The [visualization.ipynb](https://github.com/aitenea/alkyne-borylation-ml/blob/main/visualization/visualization.ipynb) notebook contains some of data visualization tasks performed and reproduces some of the figures that can be found in the paper. An .html file is also provided so that the results can be seen without running the full notebook.
+The [visualization.ipynb](https://github.com/aitenea/alkyne-borylation-ml/blob/main/visualization/visualization.ipynb) notebook contains some of data visualization tasks performed and reproduces some of the figures that can be found in the paper.
