@@ -1,5 +1,5 @@
 # Cu(I)-Catalyzed Regiodivergent Borylation of Alkynes
-Code and results of the machine learning workflow. The results shown in the paper "_Cu(I)-Catalyzed Regiodivergent Borylation of Alkynes: Artificial Intelligence Accelerated Ligands Design for Regio-selection and Reaction Optimization_" can be replicated with the material found here.
+Code and results of the machine learning workflow. The results shown in the paper "[_Cu(I)-Catalyzed Regiodivergent Borylation of Alkynes: Artificial Intelligence Accelerated Ligands Design for Regio-selection and Reaction Optimization_](https://pubs.acs.org/doi/10.1021/acscatal.5c06941)" can be replicated with the material found here.
 
 # Initial setup
 We'll show an example of how to execute the main script on a new environment using conda, but it can also be used without virtual environments and only using pip. First, we'll create the environment:
